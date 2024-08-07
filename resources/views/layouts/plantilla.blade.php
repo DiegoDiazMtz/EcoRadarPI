@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles and Fonts -->
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <title>@yield('titulo')</title>
     
     <!-- Vite for assets -->
@@ -14,14 +20,35 @@
 
     <!-- SweetAlert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Custom CSS for sticky footer -->
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            flex: 1;
+        }
+        footer {
+            background: black;
+            color: white;
+            padding
+            text-align: center;
+            width: 100%;
+        }
+    </style>
 </head>
-<body style="padding-bottom: 40px; margin-bottom: 40px;">
+<body>
 
     <!-- Navbar inclusion -->
     @include('partials.navbar')
 
     <!-- Main content area -->
-    <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 mt-8 p-8" style="background-color:#02B126;">
+    <div class="content w-full mx-auto px-4 sm:px-6 lg:px-8 mt-8 p-8 pt-24" style="background-color: #459569;"> <!-- #02B126 -->
         <div class="bg-white p-8 rounded-lg shadow-lg">
             @yield('contenido')
         </div>
@@ -37,12 +64,12 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="text-light py-1 fixed-bottom" style="background: black">
-        <div class="container text-center">
-            <p class="mb-0 ">EcoRadar &copy; {{date('d/m/Y')}}</p>
-        </div>
-    </footer>
-
+    
 </body>
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p class="mb-0">EcoRadar &copy; {{date('d/m/Y')}}</p>
+    </div>
+</footer>
 </html>

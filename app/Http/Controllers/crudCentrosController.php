@@ -18,7 +18,7 @@ class crudCentrosController extends Controller
     {
         $allcenters = DB::table('centros')->get();
     
-        return view('welcome', compact('allcenters')); // Retornar el conjunto de resultados de la consulta
+        return view('crudCentros', compact('allcenters')); // Retornar el conjunto de resultados de la consulta
     }
 
     /**
@@ -59,7 +59,7 @@ class crudCentrosController extends Controller
         ]);
 
         // Redirigir con mensaje de confirmación
-        return redirect('/')->with('confirmacion', 'Centro agregado con éxito');
+        return redirect('/crudCentros')->with('confirmacion', 'Centro agregado con éxito');
     }
 
 
@@ -114,7 +114,7 @@ class crudCentrosController extends Controller
             'imagen' => $urlImagen, // Guardar la URL de la imagen
         ]);
     
-        return redirect('/')->with('confirmacion', 'Centro editado con éxito');
+        return redirect('/crudCentros')->with('confirmacion', 'Centro editado con éxito');
     }
     
 
@@ -141,6 +141,6 @@ class crudCentrosController extends Controller
         // Eliminar el registro de la base de datos
         DB::table('centros')->where('id', $id)->delete();
     
-        return redirect('/')->with('confirmacion', 'Centro eliminado con éxito');
+        return redirect('/crudCentros')->with('confirmacion', 'Centro eliminado con éxito');
     }
 }

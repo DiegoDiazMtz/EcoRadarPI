@@ -43,25 +43,25 @@
                         <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="unicel-checkbox" type="checkbox" name="boxMaterials[]" value="Unicel" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <input id="unicel-checkbox" type="checkbox" name="boxMaterials[]" value="Unicel" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="unicel-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Unicel</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="colillas-checkbox" type="checkbox" name="boxMaterials[]" value="Colillas de Cigarro" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <input id="colillas-checkbox" type="checkbox" name="boxMaterials[]" value="Colillas de Cigarro" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="colillas-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Colillas de Cigarro</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="pilas-checkbox" type="checkbox" name="boxMaterials[]" value="Pilas o Baterias" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <input id="pilas-checkbox" type="checkbox" name="boxMaterials[]" value="Pilas o Baterias" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="pilas-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pilas o Baterias</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="construccion-checkbox" type="checkbox" name="boxMaterials[]" value="Materiales de Construcción" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <input id="construccion-checkbox" type="checkbox" name="boxMaterials[]" value="Materiales de Construcción" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="construccion-checkbox" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Materiales de Construcción</label>
                                 </div>
                             </li>
@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="flex items-center justify-end p-4 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button type="submit" class="bg-green-600 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-300 text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Agregar Centro</button>
+                    <button type="submit" class="bg-gradient-to-r from-green-500 to-teal-500 text-white font-bold py-3 px-6 sm:px-8 rounded-full hover:from-teal-500 hover:to-green-500 hover:shadow-lg transition duration-300 transform hover:scale-110">Agregar Centro</button>
                 </div>
             </form>
         </div>
@@ -145,25 +145,25 @@
                         <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="unicel-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Unicel" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Unicel', explode(', ', $item->materiales)) ? 'checked' : '' }}>
+                                    <input id="unicel-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Unicel" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-yellow-500 dark:focus:ring-yellow-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Unicel', explode(', ', $item->materiales)) ? 'checked' : '' }}>
                                     <label for="unicel-checkbox{{$item->id}}" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Unicel</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="colillas-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Colillas de Cigarro" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Colillas de Cigarro', explode(', ', $item->materiales)) ? 'checked' : '' }}>
+                                    <input id="colillas-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Colillas de Cigarro" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-yellow-500 dark:focus:ring-yellow-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Colillas de Cigarro', explode(', ', $item->materiales)) ? 'checked' : '' }}>
                                     <label for="colillas-checkbox{{$item->id}}" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Colillas de Cigarro</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="pilas-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Pilas o Baterias" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Pilas o Baterias', explode(', ', $item->materiales)) ? 'checked' : '' }}>
+                                    <input id="pilas-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Pilas o Baterias" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-yellow-500 dark:focus:ring-yellow-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Pilas o Baterias', explode(', ', $item->materiales)) ? 'checked' : '' }}>
                                     <label for="pilas-checkbox{{$item->id}}" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pilas o Baterias</label>
                                 </div>
                             </li>
                             <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
                                 <div class="flex items-center ps-3">
-                                    <input id="construccion-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Materiales de Construcción" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Materiales de Construcción', explode(', ', $item->materiales)) ? 'checked' : '' }}>
+                                    <input id="construccion-checkbox{{$item->id}}" type="checkbox" name="boxMaterials[]" value="Materiales de Construcción" class="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 rounded focus:ring-yellow-500 dark:focus:ring-yellow-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" {{ in_array('Materiales de Construcción', explode(', ', $item->materiales)) ? 'checked' : '' }}>
                                     <label for="construccion-checkbox{{$item->id}}" class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Materiales de Construcción</label>
                                 </div>
                             </li>
@@ -192,7 +192,7 @@
                 </div>
 
                 <div class="flex items-center justify-end p-4 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button type="submit" class="bg-yellow-400 hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-400 text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">Guardar Cambios</button>
+                    <button type="submit" class="bg-gradient-to-r from-yellow-400 to-orange-400 text-white font-bold py-3 px-6 sm:px-8 rounded-full hover:from-orange-400 hover:to-yellow-400 hover:shadow-lg transition duration-300 transform hover:scale-110">Guardar Cambios</button>
                 </div>
             </form>
         </div>
@@ -258,7 +258,7 @@
                 </div>
 
                 <div class="flex items-center justify-end p-4 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button type="submit" class="bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Eliminar Centro</button>
+                    <button type="submit" class="bg-gradient-to-r from-red-600 to-pink-600 text-white font-bold py-2 px-0 sm:px-8 rounded-full hover:from-pink-600 hover:to-red-600 hover:shadow-lg transition duration-300 transform hover:scale-110">Eliminar Centro</button>
                 </div>
             </form>
         </div>
